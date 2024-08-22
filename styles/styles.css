@@ -1,0 +1,113 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 0.85rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  display: grid;
+  place-content: center;
+}
+
+.card-container {
+  width: 90%;
+  max-width: 620px;
+  margin: 10px auto;
+  display: grid;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.img-container {
+  width: 100%;
+  height: 240px;
+  background-image: url("../images/image-product-mobile.jpg");
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.details-container {
+  padding: 1.5rem;
+}
+
+.details-container p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.8em;
+}
+.details-container #perfume {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-bottom: 0.5em;
+}
+.details-container h1, .details-container #discount-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+.details-container h1 {
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 1rem;
+  line-height: 1.8rem;
+}
+.details-container #description-para {
+  margin-bottom: 2rem;
+  word-spacing: 0.05em;
+}
+.details-container #price-para {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.8rem;
+}
+.details-container #discount-price {
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+}
+.details-container #actual-price {
+  text-decoration: line-through;
+}
+.details-container button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  text-align: center;
+  background-color: hsl(158, 36%, 37%);
+  padding: 1rem 0;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.details-container button:hover, .details-container button:focus, .details-container button:active {
+  cursor: pointer;
+  background-color: #16362A;
+}
+
+@media (min-width: 576px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .img-container {
+    height: 100%;
+    background-image: url("../images/image-product-desktop.jpg");
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+  }
+  .details-container {
+    padding: 1.8rem;
+  }
+  h1 {
+    padding-right: 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

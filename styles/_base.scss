@@ -1,0 +1,19 @@
+@forward 'variables';
+@use 'variables' as *;
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-size: $fs-sm;
+    font-family: $Montserrat;
+    background-color: $bg-primary-color;
+    display: grid;
+    place-content: center;
+}
+
+
