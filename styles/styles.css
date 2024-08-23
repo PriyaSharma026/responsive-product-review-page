@@ -15,7 +15,7 @@ body {
 
 .card-container {
   width: 90%;
-  max-width: 640px;
+  max-width: 660px;
   margin: 10px auto;
   display: grid;
   background-color: hsl(0, 0%, 100%);
@@ -45,7 +45,7 @@ body {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.4em;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .details-container h1, .details-container #discount-price {
   font-size: 2rem;
@@ -58,14 +58,14 @@ body {
   line-height: 2rem;
 }
 .details-container #description-para {
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
   word-spacing: 0.05em;
 }
 .details-container #price-para {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
 }
 .details-container #discount-price {
   color: hsl(158, 36%, 37%);
