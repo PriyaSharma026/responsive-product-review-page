@@ -15,7 +15,7 @@ body {
 
 .card-container {
   width: 90%;
-  max-width: 620px;
+  max-width: 640px;
   margin: 10px auto;
   display: grid;
   background-color: hsl(0, 0%, 100%);
@@ -42,21 +42,23 @@ body {
   line-height: 1.8em;
 }
 .details-container #perfume {
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.4em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1rem;
 }
 .details-container h1, .details-container #discount-price {
+  font-size: 2rem;
   font-family: "Fraunces", serif;
   font-weight: 700;
 }
 .details-container h1 {
   color: hsl(212, 21%, 14%);
-  margin-bottom: 1rem;
-  line-height: 1.8rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 .details-container #description-para {
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
   word-spacing: 0.05em;
 }
 .details-container #price-para {
@@ -66,7 +68,6 @@ body {
   margin-bottom: 1.8rem;
 }
 .details-container #discount-price {
-  font-size: 2rem;
   color: hsl(158, 36%, 37%);
 }
 .details-container #actual-price {
@@ -87,7 +88,7 @@ body {
   justify-content: center;
   gap: 0.5rem;
 }
-.details-container button:hover, .details-container button:focus, .details-container button:active {
+.details-container button:hover, .details-container button:focus {
   cursor: pointer;
   background-color: #16362A;
 }
